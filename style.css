@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(251, 118, 118);
+}
+
+#pokedex-container {
+  margin: 2rem;
+  background-color: rgb(238, 249, 192);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  padding: 20px;
+  width: 200px;
+}
+
+.name {
+  text-align: center;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+}
+
+.types p {
+  margin: 5px;
+  padding: 3px;
+  background-color: green;
+  color: white;
+}
